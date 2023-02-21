@@ -36,7 +36,6 @@ public class CatalogPage extends BasePage{
             if(products.get(i).getName().contains(product)){
                 return this;
             }
-            System.out.println(products.get(i).getName());
         }
         Assert.fail("Не нашлось подъходящего продукта");
         return this;
