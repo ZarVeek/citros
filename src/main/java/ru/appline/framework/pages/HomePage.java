@@ -12,6 +12,7 @@ import ru.appline.framework.managers.PageManager;
 public class HomePage extends BasePage{
     @Step("Проврка прогрузилась ли главная страничка")
     public HomePage checkMainMenu() {
+        /** нужно для ввода капчи */
         try {
             Thread.sleep(20000);
         } catch (InterruptedException e) {
