@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Market.yandex">
+    <test name="Test">
+        <classes>
+            <class name="ru.appline.framework.tests.FirstTest"/>
+        </classes>
+    </test>
+
+</suite>
